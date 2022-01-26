@@ -1,0 +1,14 @@
+{
+    "require": {
+        "doctrine/orm": "^2.11",
+        "symfony/cache": "^5.4",
+        "doctrine/annotations": "^1.13",
+        "doctrine/migrations": "^3.4",
+        "symfony/yaml": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\Doctrine\\" : "src/"
+        }
+    }
+}
